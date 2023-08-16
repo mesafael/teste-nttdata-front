@@ -1,0 +1,43 @@
+
+.dashboard{
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto 0;
+}
+.top-dashboard{
+    margin: 0 auto 50px;
+    display: flex;
+    gap: 20px;
+    &__chart{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 150px;
+        color: #fff;
+        text-align: center;
+        background: rgb(17, 88, 17);
+        border-radius: 10px;
+        
+        h2{
+            margin: auto auto 0;
+            font-size: 14px;
+        }
+        p{
+            margin: 5px auto auto;
+            font-size: 30px;
+        }
+        &:first-child{
+            background: rgb(152, 27, 27);
+        }
+        &:last-child{
+            background: rgb(28, 28, 130);
+        }
+    }
+}
+.mid-dashboard{
+    display: flex;
+    gap: 10px;
+    .chart-three{
+        width: 50%;;
+    }
+}

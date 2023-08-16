@@ -1,0 +1,38 @@
+.section{
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+    position: relative;
+    transform: translate(0%, -50%);
+    top: 50vh;
+    &__wrap-input{
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;;
+        text-align: center;
+    }
+    &__input{
+        border-radius: 10px 0 0 10px;
+        padding: 0 10px;
+        border: none;
+        outline: none;
+        height: 44px;
+        width: calc(70% - 20px);
+    }
+    &__button{
+        border-radius: 0 10px 10px 0;
+        padding: 0;
+        border: none;
+        outline: none;
+        height: 44px;
+        width: 29%;
+        background-color: #064473;
+        color: #fff;
+        cursor: pointer;
+    }
+    &__error-input{
+        color: red;
+        margin-bottom: 10px;
+    }
+}
+

@@ -1,0 +1,34 @@
+.aside {
+    width: 300px;
+    height: 100vh;
+    position: relative;
+    background-color: #064473;
+    position: absolute;
+    left: -300px;
+    transition: 0.5s all ease;
+    z-index: 5;
+    &.open{
+        left: 0;
+    }
+
+    &__list {
+        line-height: 20px;
+        padding: 5px 20px;
+
+    }
+
+    &__link {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    &__open-menu {
+        right: -35px;
+        top: 12px;
+        position: absolute;
+        font-size: 20px;
+        cursor: pointer;
+        color: red;
+
+    }
+}
